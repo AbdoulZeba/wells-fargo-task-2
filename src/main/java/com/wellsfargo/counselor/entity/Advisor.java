@@ -29,15 +29,16 @@ public class Advisor {
     private String email;
 
     protected Advisor() {
-
     }
 
     public Advisor(String firstName, String lastName, String address, String phone, String email) {
+
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
         this.phone = phone;
         this.email = email;
+
     }
 
     public Long getAdvisorId() {
